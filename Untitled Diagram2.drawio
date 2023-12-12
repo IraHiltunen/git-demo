@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T15:23:22.571Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1jJJ9-Re-EHveYhatg3V" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T18:18:35.853Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zB4gzbSbS0IHL_7rdx-j" version="22.1.7" type="github">
   <diagram id="BptOMOonJFDbjRiL_tEQ" name="Page-1">
     <mxGraphModel dx="1378" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1902,6 +1902,21 @@
         </mxCell>
         <mxCell id="Y8NSSsuKiXFWuuXddtwc-13" value="&lt;div style=&quot;border-color: var(--border-color); font-weight: 700; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;+RenameVar(string,string,string): string&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;+ExtractMethod(string,string,string): string&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; +InlineTemporaryVariable(string,string): string&lt;/div&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y8NSSsuKiXFWuuXddtwc-12">
           <mxGeometry y="30" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8NSSsuKiXFWuuXddtwc-16" value="запуск" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="3660" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8NSSsuKiXFWuuXddtwc-17" value="створення буферу(черга)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="3750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8NSSsuKiXFWuuXddtwc-18" value="створення процесу виробників" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="3820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8NSSsuKiXFWuuXddtwc-19" value="створення процесу користувачів" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="3890" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8NSSsuKiXFWuuXddtwc-20" value="завершення" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="3960" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
