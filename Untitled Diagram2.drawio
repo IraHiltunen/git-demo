@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="26.0.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="26.1.1">
   <diagram id="BptOMOonJFDbjRiL_tEQ" name="Page-1">
     <mxGraphModel dx="1378" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2400,6 +2400,42 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="4760" as="sourcePoint" />
             <mxPoint x="480" y="4640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLbpU1q1-jSeHj-ZfMHc-1" value="docker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="4990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CLbpU1q1-jSeHj-ZfMHc-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.442;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CLbpU1q1-jSeHj-ZfMHc-1" target="CLbpU1q1-jSeHj-ZfMHc-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="5230" as="sourcePoint" />
+            <mxPoint x="490" y="5080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLbpU1q1-jSeHj-ZfMHc-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CLbpU1q1-jSeHj-ZfMHc-1" target="CLbpU1q1-jSeHj-ZfMHc-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="5230" as="sourcePoint" />
+            <mxPoint x="310" y="5100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLbpU1q1-jSeHj-ZfMHc-4" value="main.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="5110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CLbpU1q1-jSeHj-ZfMHc-5" value="bot.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="5110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CLbpU1q1-jSeHj-ZfMHc-9" value="test_main.http" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="5110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CLbpU1q1-jSeHj-ZfMHc-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CLbpU1q1-jSeHj-ZfMHc-1" target="CLbpU1q1-jSeHj-ZfMHc-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="5230" as="sourcePoint" />
+            <mxPoint x="730" y="5180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLbpU1q1-jSeHj-ZfMHc-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CLbpU1q1-jSeHj-ZfMHc-9" target="CLbpU1q1-jSeHj-ZfMHc-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="5230" as="sourcePoint" />
+            <mxPoint x="730" y="5180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
